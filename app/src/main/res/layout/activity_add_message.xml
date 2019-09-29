@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   >
+    <TextView
+        android:id="@+id/addmessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="20dp"
+        android:text="@string/addmessage_name"
+        android:textSize="25dp"/>
+    <TextView
+        android:id="@+id/welcome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/addmessage"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:text="@string/welcome_name"
+        android:textSize="14dp"
+        />
+    <EditText
+        android:id="@+id/edit_1"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@id/welcome"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="30dp"
+        android:hint="@string/sex_name"
+        android:inputType="textPersonName"
+        />
+    <EditText
+        android:id="@+id/edit_2"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@id/edit_1"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:hint="@string/age_name"
+        android:inputType="textPersonName"/>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+       android:id="@+id/edit_4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edit_2"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="15dp"
+        android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView_province"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="请选择市"
+        android:textSize="15sp"></TextView>
+
+    <Spinner
+        android:id="@+id/spinner_province"
+        android:layout_width="match_parent"
+        android:layout_marginTop="15dp"
+        android:spinnerMode="dropdown"
+        android:layout_height="wrap_content" >
+    </Spinner>
+
+    <TextView
+        android:id="@+id/textView_school"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="请选择学校"
+        android:spinnerMode="dropdown"
+        android:textSize="15sp"
+        >
+    </TextView>
+
+    <Spinner
+        android:id="@+id/spinner_school"
+        android:layout_width="match_parent"
+        android:layout_marginTop="15dp"
+        android:spinnerMode="dropdown"
+        android:layout_height="wrap_content" >
+    </Spinner>
+    </LinearLayout>
+    <Button
+        android:id="@+id/addmbtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edit_4"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="30dp"
+        android:text="@string/addmbtn_name"
+        android:textSize="20dp"
+        android:textColor="@color/colorWhite"
+        android:background="@drawable/bg_btn"
+        />
+
+</RelativeLayout>

@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/recruitment_toolbar_masage"
+        android:layout_width="match_parent"
+        android:layout_height="43dp"
+        android:background="@color/colorPrimary"
+        android:theme="@style/AppTheme"
+        app:titleTextAppearance="@style/Toolbar.TitleText"
+        />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/company_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:text="中钢集团"
+                android:textSize="50dp" />
+
+            <TextView
+                android:id="@+id/company_intro"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="25dp"
+                android:text="@string/recruitment_company_massage"
+                android:textColor="#EB645D58"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="310dp"
+                android:layout_height="1dp"
+                android:layout_marginLeft="34dp"
+                android:layout_marginTop="8dp"
+                android:background="#cccc" />
+
+
+            <TextView
+                android:id="@+id/profile"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="40dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/about_us_school"
+                android:textSize="18dp" />
+
+            <TextView
+                android:layout_width="310dp"
+                android:layout_height="1dp"
+                android:layout_marginLeft="34dp"
+                android:layout_marginTop="10dp"
+
+                android:background="#cccc" />
+
+
+
+
+            <TextView
+                android:id="@+id/company_post"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="20dp"
+                android:text="@string/recruitment_company_post"
+                android:textColor="#EB645D58"
+                android:textSize="20dp" />
+            <TextView
+                android:layout_width="310dp"
+                android:layout_height="1dp"
+                android:layout_marginLeft="34dp"
+                android:layout_marginTop="10dp"
+
+                android:background="#cccc" />
+
+            <TextView
+                android:id="@+id/MOTOLEY"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="40dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/about_us_school"
+                android:textSize="18dp" />
+
+            <TextView
+                android:layout_width="310dp"
+                android:layout_height="1dp"
+                android:layout_marginLeft="34dp"
+                android:layout_marginTop="20dp"
+                android:background="#cccc" />
+
+            <TextView
+                android:id="@+id/company_request"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="20dp"
+                android:text="@string/recruitment_company_request"
+                android:textColor="#EB645D58"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="310dp"
+                android:layout_height="1dp"
+                android:layout_marginLeft="34dp"
+                android:layout_marginTop="20dp"
+                android:background="#cccc" />
+
+
+            <TextView
+                android:id="@+id/request_conter"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="40dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/about_us_school"
+                android:textSize="18dp" />
+
+            <TextView
+                android:layout_width="310dp"
+                android:layout_height="1dp"
+                android:layout_marginLeft="34dp"
+                android:layout_marginTop="20dp"
+                android:background="#cccc" />
+
+
+            <TextView
+                android:id="@+id/company_school"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="20dp"
+                android:text="@string/recruitment_company_school"
+                android:textColor="#EB645D58"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="310dp"
+                android:layout_height="1dp"
+                android:layout_marginLeft="34dp"
+                android:layout_marginTop="20dp"
+                android:background="#cccc" />
+
+            <TextView
+                android:id="@+id/university"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="40dp"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:text="郑州轻工业大学"
+                android:textSize="18dp" />
+
+            <TextView
+                android:layout_width="310dp"
+                android:layout_height="1dp"
+                android:layout_marginLeft="34dp"
+                android:layout_marginTop="8dp"
+                android:background="#cccc" />
+
+            <TextView
+                android:id="@+id/company_time"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="20dp"
+                android:text="@string/recruitment_company_time"
+                android:textColor="#EB645D58"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="310dp"
+                android:layout_height="1dp"
+                android:layout_marginLeft="34dp"
+                android:layout_marginTop="20dp"
+                android:background="#cccc" />
+
+            <TextView
+                android:id="@+id/time_conter"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="40dp"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:text="11-5"
+                android:textSize="18dp" />
+
+            <TextView
+                android:layout_width="310dp"
+                android:layout_height="1dp"
+                android:layout_marginLeft="34dp"
+                android:layout_marginTop="8dp"
+                android:background="#cccc" />
+            <TextView
+                android:id="@+id/company_people"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="20dp"
+                android:text="@string/recruitment_company_people"
+                android:textColor="#EB645D58"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="310dp"
+                android:layout_height="1dp"
+                android:layout_marginLeft="34dp"
+                android:layout_marginTop="20dp"
+                android:background="#cccc" />
+
+            <TextView
+                android:id="@+id/people_conter"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="40dp"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:text="11-5"
+                android:textSize="18dp" />
+
+            <TextView
+                android:layout_width="310dp"
+                android:layout_height="1dp"
+                android:layout_marginLeft="34dp"
+                android:layout_marginTop="8dp"
+                android:background="#cccc" />
+
+            <TextView
+                android:layout_width="310dp"
+                android:layout_height="1dp"
+                android:layout_marginLeft="34dp"
+                android:layout_marginTop="15dp"
+               />
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+
+
+
+</LinearLayout>

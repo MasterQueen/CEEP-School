@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.administrator.employmentplatform">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <!-- To auto-complete the email text field in the login form with the user's emails -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".User_view.about_us" />
+        <activity android:name=".User_view.MyMessageActivity" />
+        <activity android:name=".AddMessageActivity" />
+        <activity android:name=".Register" />
+        <activity android:name=".AddThings" />
+        <activity android:name=".User_view.User_school" />
+        <activity android:name=".User_view.user_school_second_hand" />
+        <activity android:name=".User_view.User_school_selectschool" />
+        <activity android:name=".User_view.User_resume" />
+        <activity android:name=".com.example.administrator.MainView.recruitment_massage" />
+        <activity android:name=".com.example.administrator.MainView.employment_web_view" />
+        <activity android:name=".User_view.User_set" />
+        <activity android:name=".User_view.Uaser_set_conter" />
+        <activity android:name=".User_view.User_school_secondschool_massage" />
+        <activity android:name=".com.example.administrator.MainView.recruitments" />
+        <activity android:name=".LogoActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".LoginActivity" />
+        <activity
+            android:name=".User_view.User_message"
+            android:label="@string/title_activity_user_message"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".com.example.administrator.MainView.employment_view" />
+        <activity android:name=".com.example.administrator.MainView.enterprenrurshio_view"></activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical">
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+    <TextView
+        android:id="@+id/mymessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="15dp"
+        android:text="@string/mymessage_name"
+        android:textSize="25dp"/>
+
+    <TextView
+        android:id="@+id/myname"
+        android:layout_width="45dp"
+        android:layout_height="wrap_content"
+      android:layout_below="@id/mymessage"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:text="@string/myname_name"
+        android:textSize="18dp" />
+
+    <EditText
+        android:id="@+id/edt_1"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/mymessage"
+        android:layout_toRightOf="@id/myname"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="1dp"
+        android:inputType="textPersonName"
+        />
+    <TextView
+        android:id="@+id/mysex"
+        android:layout_width="45dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/mymessage"
+        android:layout_marginLeft="7dp"
+        android:layout_marginTop="15dp"
+        android:layout_toRightOf="@id/edt_1"
+        android:text="@string/mysex_name"
+        android:textSize="18dp" />
+
+    <EditText
+        android:id="@+id/edt_2"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/mymessage"
+        android:layout_toRightOf="@id/mysex"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="1dp"
+        android:inputType="textPersonName"
+        />
+
+    <TextView
+        android:id="@+id/myage"
+        android:layout_width="45dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/myname"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:text="@string/myage_name"
+        android:textSize="18dp" />
+
+    <EditText
+        android:id="@+id/edt_3"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/myname"
+        android:layout_toRightOf="@id/myage"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="1dp"
+        android:inputType="textPersonName"
+        />
+    <TextView
+        android:id="@+id/mystage"
+        android:layout_width="45dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/mysex"
+        android:layout_marginLeft="7dp"
+        android:layout_marginTop="15dp"
+        android:layout_toRightOf="@id/edt_3"
+        android:text="@string/mystage_name"
+        android:textSize="18dp" />
+
+    <EditText
+        android:id="@+id/edt_4"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/mysex"
+        android:layout_toRightOf="@id/mystage"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="1dp"
+        android:inputType="textPersonName"
+        />
+    <TextView
+    android:id="@+id/things_name"
+    android:layout_width="45dp"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/myage"
+    android:layout_marginLeft="15dp"
+    android:layout_marginTop="15dp"
+    android:text="@string/mypopisal_name"
+    android:textSize="18dp" />
+
+    <EditText
+        android:id="@+id/edt_5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/myage"
+        android:layout_toRightOf="@id/things_name"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginRight="5dp"
+        android:inputType="textPersonName"
+        />
+    <TextView
+        android:id="@+id/myphone"
+        android:layout_width="45dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/things_name"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:text="@string/myphone_name"
+        android:textSize="18dp" />
+    <EditText
+        android:id="@+id/edt_6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/things_name"
+        android:layout_toRightOf="@id/myphone"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginRight="5dp"
+        android:inputType="textPersonName"
+        />
+    <TextView
+        android:id="@+id/myschool"
+        android:layout_width="45dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/myphone"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:text="@string/myschool_name"
+        android:textSize="18dp" />
+
+    <EditText
+        android:id="@+id/edt_7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/myphone"
+        android:layout_toRightOf="@id/myschool"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginRight="5dp"
+        android:inputType="textPersonName"
+        />
+    <TextView
+        android:id="@+id/myself"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/myschool"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:text="@string/aboutmyself_name"
+        android:textSize="18dp" />
+    <EditText
+        android:id="@+id/edt_8"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_below="@id/myself"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="5dp"
+        android:inputType="textPersonName"
+
+        android:background="@drawable/edit_style"
+        />
+
+<Button
+    android:id="@+id/ok"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:text="确定"
+    android:textSize="20dp"
+    android:textColor="@color/colorBlack"
+    android:layout_below="@id/edt_8"
+    android:layout_marginTop="10dp"
+    android:background="@drawable/bg_sure"
+android:layout_marginLeft="50dp"
+    android:layout_marginRight="50dp"
+    />
+</RelativeLayout>
+
+</LinearLayout>
+</ScrollView>

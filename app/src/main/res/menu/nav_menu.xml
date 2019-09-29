@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--滑动用户界面Item设置-->
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<group android:checkableBehavior="single">
+    <item
+        android:id="@+id/user_message"
+        android:icon="@mipmap/user_message"
+        android:title="@string/User_user_message"/>
+    <item
+        android:id="@+id/user_resume"
+        android:icon="@mipmap/user_resume"
+        android:title="@string/User_user_resume"/>
+    <item
+        android:id="@+id/user_school"
+        android:icon="@mipmap/user_school"
+        android:title="@string/User_user_school"/>
+    </group>
+
+
+    <item android:title="系统设置">
+        <menu>
+        <item
+            android:id="@+id/account_set"
+            android:icon="@mipmap/account_set"
+            android:title="@string/User_account_set"/>
+        <item
+            android:id="@+id/update"
+            android:icon="@mipmap/update"
+            android:title="@string/User_update"/>
+        <item
+            android:id="@+id/about_our"
+            android:icon="@mipmap/about_our"
+            android:title="@string/User_about_our"/>
+
+        </menu>
+     </item>
+
+</menu>

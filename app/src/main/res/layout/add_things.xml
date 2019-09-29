@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical">
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+    <TextView
+        android:id="@+id/mymessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="15dp"
+        android:text="我的闲置"
+        android:textSize="25dp"/>
+
+
+    <TextView
+        android:id="@+id/things_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/myage"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="85dp"
+        android:text="商品名称"
+        android:textSize="18dp" />
+
+    <EditText
+        android:id="@+id/et_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/myage"
+        android:layout_marginLeft="1dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="75dp"
+        android:layout_toRightOf="@id/things_name"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/myphone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/things_name"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="20dp"
+        android:text="联系方式"
+        android:textSize="18dp" />
+
+    <EditText
+        android:id="@+id/et_phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/things_name"
+        android:layout_marginLeft="1dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="15dp"
+        android:layout_toRightOf="@id/myphone"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/myschool"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/myphone"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="20dp"
+        android:text="预售价格"
+        android:textSize="18dp" />
+
+    <EditText
+        android:id="@+id/et_price"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/myphone"
+        android:layout_marginLeft="1dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="15dp"
+        android:layout_toRightOf="@id/myschool"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/myself"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/myschool"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="20dp"
+        android:text="商品简介"
+        android:textSize="18dp" />
+    <EditText
+        android:id="@+id/et_jianjie"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_below="@id/myself"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:inputType="textPersonName"
+
+        android:background="@drawable/edit_style"
+        />
+
+    <TextView
+        android:id="@+id/beizhu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/et_jianjie"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:text="备注信息"
+        android:textSize="18dp" />
+    <EditText
+        android:id="@+id/et_beizhuxinxi"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/beizhu"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:inputType="textPersonName"
+
+        android:background="@drawable/edit_style"
+        />
+
+<Button
+    android:id="@+id/addBtn"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:text="发布"
+    android:textSize="20dp"
+    android:textColor="@color/colorBlack"
+    android:layout_below="@id/et_beizhuxinxi"
+    android:layout_marginTop="15dp"
+    android:background="@drawable/bg_sure"
+    android:layout_marginLeft="15dp"
+    android:layout_marginRight="15dp"
+    />
+</RelativeLayout>
+
+</LinearLayout>
+</ScrollView>

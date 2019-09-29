@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:theme="@style/AppTheme"
+        app:titleTextAppearance="@style/Toolbar.TitleText"
+        />
+
+    <TextView
+        android:id="@+id/textView_province"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="请选择城市"
+        android:textSize="15sp"></TextView>
+
+    <Spinner
+        android:id="@+id/spinner_province"
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:spinnerMode="dropdown"
+        android:layout_height="wrap_content" >
+    </Spinner>
+
+    <TextView
+        android:id="@+id/textView_school"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="请选择学校"
+        android:spinnerMode="dropdown"
+        android:textSize="15sp"
+        >
+    </TextView>
+
+    <Spinner
+        android:id="@+id/spinner_school"
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:spinnerMode="dropdown"
+        android:layout_height="wrap_content" >
+    </Spinner>
+
+
+    <Button
+        android:layout_marginTop="40dp"
+        android:id="@+id/select_school_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="确定"
+        android:textSize="20dp"/>
+
+
+</LinearLayout>
